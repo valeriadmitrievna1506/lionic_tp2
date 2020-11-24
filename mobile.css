@@ -1,0 +1,121 @@
+@media (max-width: 1465px) {
+  .feedback-item {
+    height: 400px;
+    padding: 45px 30px 30px 30px;
+  }
+  .whatwedo-item {
+    padding: 1.5%;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 1320px) {
+  footer .social-links {
+    width: 15%;
+  }
+  footer nav {
+    width: 80%;
+  }
+  .contacts-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 200px;
+  }
+  .Contacts .container {
+    padding-top: 70px;
+    padding-bottom: 120px;
+  }
+}
+
+@media (max-width: 1255px) {
+  .whatwedo-block,
+  .feedback-block,
+  footer .container,
+  form {
+    flex-wrap: wrap;
+  }
+  .whatwedo-item {
+    width: 48%;
+    padding: 3% !important;
+    justify-content: flex-start;
+    height: 320px;
+  }
+  .feedback-item {
+    width: 48%;
+    height: 320px;
+  }
+  .feedback-item:last-of-type {
+    margin-top: 20px;
+  }
+  .whatwedo-item:nth-of-type(1),
+  .whatwedo-item:nth-of-type(2) {
+    margin-bottom: 20px;
+  }
+  .whatwedo-item .item-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 30px;
+  }
+  footer > .container > .flex {
+    width: 100% !important;
+  }
+  footer > .container > .flex:first-of-type {
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    align-items: baseline;
+  }
+  footer nav {
+    width: 65%;
+  }
+  header nav {
+    width: 55%;
+    margin: 0;
+  }
+  form * {
+    width: 49%;
+  }
+  form input:first-of-type,
+  form input:nth-of-type(2) {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1155px) {
+  header .logo {
+    width: 10%;
+  }
+  header .logo img {
+    width: 100%;
+  }
+  header .blue-button {
+    padding: 13px 30px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .Hero .container {
+    padding: 60px 0;
+    padding-right: 35%;
+  }
+  .Hero {
+    background-size: auto 100%;
+  }
+  header nav {
+    width: 65%;
+  }
+}
+
+@media (max-width: 1035px) {
+  .feedback-author::before {
+    width: 50px;
+    height: 50px;
+    top: calc((100% - 52px) / 2);
+  }
+  .feedback-item .text {
+    height: 75%;
+  }
+  .feedback-item {
+    padding: 35px 20px 20px 20px;
+  }
+}
